@@ -9,11 +9,11 @@
 - OnInit is really similar to React's componentDidMount
 - *ngFor directives / ngForOf iterable / first, last, even, odd, index, count
   - Example:
-  ```
-  <li *ngFor="let user of users; index as i; first as isFirst">
-    {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span>
-  </li>
-  ```
+    ```
+    <li *ngFor="let user of users; index as i; first as isFirst">
+      {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span>
+    </li>
+    ```
 
 
 ## **Angular & React Similarities:**
