@@ -1,6 +1,6 @@
 # Tour-Of-Heroes
 
-##Angular
+## **Angular**
 
 **Notes:**
 - ng generate component heroes
@@ -16,5 +16,5 @@
 ```
 
 
-##Similarities with React
-TypeScript is involved which I already know how to write for the most part.
+## **Angular & React Similarities:**
+TypeScript (.ts or .tsx file) can be involved which I already know how to write for the most part.
