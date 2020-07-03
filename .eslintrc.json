@@ -9,6 +9,15 @@
     "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
     "sourceType": "module" // Allows for the use of imports
   },
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-empty-function": "off"
+      }
+    }
+  ],
   "rules": {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
   }
