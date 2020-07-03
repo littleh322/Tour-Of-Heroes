@@ -8,7 +8,7 @@ Go back to [HOME PAGE](https://github.com/littleh322/Tour-Of-Heroes) for regular
 ##### Component:
 - ng generate component heroes
   - creates  `selector`, `templateUrl`, and `styleUrls` for you.
-    - selector:     top-layer CSS
+    - selector:     top-layer `<selector></selector>`
     - templateUrl:  html layout
     - styleUrls:    private styling
 - import Component and OnInit from @angular/core
