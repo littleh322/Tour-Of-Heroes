@@ -16,8 +16,8 @@
     ```
 	
 ## Helpful hints:
-- Learn about Angular ==> [file-structure](https://angular.io/guide/file-structure) <==
-- Learn about Angular ==> [CLI](https://angular.io/cli) <==
+- Learn about Angular --> [file-structure](https://angular.io/guide/file-structure) <--
+- Learn about Angular --> [CLI](https://angular.io/cli) <--
 
 
 
