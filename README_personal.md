@@ -1,4 +1,5 @@
 # Tour Of Heroes (personal documentation)
+Go back to [HOME PAGE](https://github.com/littleh322/Tour-Of-Heroes) for regular documenation.
 
 ## **Angular**
 
