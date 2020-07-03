@@ -8,7 +8,7 @@ import { Hero } from './hero';
 })
 export class HeroesComponent implements OnInit {
   //iterpolation variable
-  iterpolation = 'Here are some heroes:';
+  // iterpolation = 'This called interpolation';
   hero: Hero = { id: 1, name: 'Windstorm' };
 
   constructor() {}
