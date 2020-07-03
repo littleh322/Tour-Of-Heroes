@@ -14,6 +14,9 @@
       {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span>
     </li>
     ```
+	
+## Helpful hints:
+- Learn about Angular ~~> [file-structure](https://angular.io/guide/file-structure) <~~
 
 
 ## **Angular & React Similarities:**
