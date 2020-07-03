@@ -1,4 +1,5 @@
-# TourOfHeroes (Go [here](./README_personal.md) for personal documentation)
+# TourOfHeroes
+Go to --> [personal documentation](./README_personal.md) <-- to read from through other notes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
