@@ -10,9 +10,14 @@
 
 <div class="hero-list-wrapper">
     <h2>List Of Heroes</h2>
-        <ul class="heroes">
-            <li *ngFor="let hero of heroes">
-                <span class="badge">{{hero.id}}</span> {{hero.name}}
-            </li>
-        </ul>
+        <section class="button-section">
+            <button *ngFor="let hero of heroes" mat-stroked-button color="primary" aria-label="menu icon button">
+                <mat-icon>menu</mat-icon>
+                 {{hero.id}} {{hero.name}}
+             </button>
+        </section>
+</div>
+
+<div>
+    <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 </div>

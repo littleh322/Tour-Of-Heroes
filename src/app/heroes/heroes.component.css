@@ -12,3 +12,10 @@
 .hero-list-wrapper > h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.button-section > button {
+    display: block;
+}
+.button-section > mat-icon {
+    margin-left: -5px !important;
+}
