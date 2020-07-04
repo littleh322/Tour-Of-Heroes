@@ -24,6 +24,8 @@
     margin-left: -5px !important;
 }
 .details-wrapper {
+    border: 1px solid black;
+    border-radius: 2%;
     width: 100%;
-    height: 120px;
+    height: 0 auto;
 }
