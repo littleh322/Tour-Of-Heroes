@@ -1,25 +1,6 @@
-<!-- <h2>{{hero.name | uppercase}} Details</h2>
-<div><span>id: </span>{{hero.id}}</div>
-<div><span>name: </span>{{hero.name}}</div> -->
-
-
 <div class="hero-list-wrapper">
     <h2>List Of Heroes</h2>
 
-    <div class="details-wrapper">
-            <h3>Details for 
-                <span *ngIf="show">{{selectedHero.name}}</span>
-                <span *ngIf="!show">?</span>
-            </h3>
-            <div >
-                id: <span *ngIf="!show">?</span> <span *ngIf="show">{{selectedHero.id}}</span>
-            </div>
-            <div *ngIf="show" class="hero-input">
-                <label>name:
-                    <input  [(ngModel)]="selectedHero.name"placeholder="name" />
-                </label>
-            </div>
-    </div>
 
     Choose a hero below to show details:
     <section class="button-section">
@@ -30,6 +11,6 @@
     </section>
 </div>
 
-<div>
-    <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<div class="details-wrapper">
+    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
 </div>
