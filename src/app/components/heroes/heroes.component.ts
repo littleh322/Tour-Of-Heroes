@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from './hero';
-import { HEROES } from './mock-heroes';
+import { HeroService } from '../../services/hero.service';
 
 @Component({
   selector: 'app-heroes', //top-layer <selector />
@@ -12,7 +12,7 @@ export class HeroesComponent implements OnInit {
   // iterpolation = 'This called interpolation';
   hero: Hero = { id: 1, name: 'Windstorm' };
 
-  heroes: Hero[] = HEROES;
+  heroes: Hero[];
 
   selectedHero: Hero;
 
@@ -20,7 +20,13 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = hero;
   }
 
-  constructor() {}
+  getHeroes(): void {
+    this.heroes = this.heroService.getHeroes();
+  }
 
-  ngOnInit(): void {}
+  constructor(private heroService: HeroService) {}
+
+  ngOnInit(): void {
+    this.getHeroes();
+  }
 }
