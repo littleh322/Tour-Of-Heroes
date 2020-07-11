@@ -1,9 +1,9 @@
 <div>
-    <h3>Details for 
+    <h2>Details for 
         <span *ngIf="hero">{{hero.name}}</span>
         <span *ngIf="!hero">?</span>
-    </h3>
-    <!-- START: ngIF:!hero display placeholder. -->
+    </h2>
+    <!--  START: ngIF:!hero display placeholder. -->
     <div *ngIf="!hero">name: <input  disabled placeholder="name" /></div>
     <div *ngIf="hero" class="hero-input">
         <label>name:
@@ -15,14 +15,16 @@
         id: <span *ngIf="!hero">?</span> 
         <span *ngIf="hero">{{hero.id}}</span>
     </div>
-</div>
-<!-- 
-<div *ngIf="hero">
-    <h2>{{hero.name | uppercase}} Details</h2>
-    <div><span>id: </span>{{hero.id}}</div>
-    <div>
-      <label>name:
-        <input [(ngModel)]="hero.name" placeholder="name"/>
-      </label>
-    </div>
-</div> -->
+    <button mat-raised-button (click)="goBack()">go back</button>
+</div> 
+
+<!-- <div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name"/>
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+</div>  -->

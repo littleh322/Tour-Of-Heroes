@@ -1,16 +1,14 @@
 <div class="hero-list-wrapper">
     <h2>List Of Heroes</h2>
-
-
-    Choose a hero below to show details:
     <section class="button-section">
-        <button *ngFor="let hero of heroes" mat-stroked-button (click)="onSelect(hero)" color="primary" [class.selected]="hero === selectedHero">
+        <button *ngFor="let hero of heroes" 
+            mat-stroked-button 
+            color="primary" 
+            routerLink="/detail/{{hero.id}}"
+            [class.selected]="hero === selectedHero"
+        >
             <mat-icon>menu</mat-icon>
              {{hero.id}} {{hero.name}}
          </button>
     </section>
-</div>
-
-<div class="details-wrapper">
-    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
 </div>
