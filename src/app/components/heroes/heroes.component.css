@@ -4,11 +4,8 @@
     background-color: lightgreen
 }
 .hero-list-wrapper {
+    overflow: hidden;
     padding: 10px;
-    background-color: bisque;
-}
-.hero-list-wrapper > h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .button-section > button {
     display: block
@@ -16,9 +13,6 @@
 .button-section > button.selected {
     background-color: #CFD8DC;
     color: crimson;
-}
-.button-section > mat-icon {
-    margin-left: -5px !important;
 }
 .details-wrapper {
     border: 1px solid black;

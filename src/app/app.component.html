@@ -1,10 +1,14 @@
 <div>
     <div class="app-header">
         <h1>{{title}}</h1>
+        <nav class="home-nav">
+            <button mat-raised-button routerLink="/dashboard">Dashboard</button>
+            <button mat-raised-button routerLink="/heroes">Heroes</button>
+        </nav>
     </div>
-    <div class="app-content">
+    <div>
         <div class="app-row">
-            <app-heroes></app-heroes>
+            <router-outlet></router-outlet>
             <app-messages class="right-column"></app-messages>
         </div>
     </div>

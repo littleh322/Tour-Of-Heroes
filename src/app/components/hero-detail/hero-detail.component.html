@@ -15,6 +15,7 @@
         id: <span *ngIf="!hero">?</span> 
         <span *ngIf="hero">{{hero.id}}</span>
     </div>
+    <button (click)="goBack()">go back</button>
 </div>
 <!-- 
 <div *ngIf="hero">
