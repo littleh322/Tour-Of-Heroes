@@ -3,11 +3,10 @@
     padding:5px;
     background-color: lightgreen
 }
-.hero-list-wrapper {
-    padding: 10px;
-}
 .button-section > button {
-    display: block
+    display: flex;
+    flex-direction: column;
+    margin: 1px 0px;
 }
 .button-section > button.selected {
     background-color: #CFD8DC;
